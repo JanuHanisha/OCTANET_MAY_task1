@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("the.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+  
+
+header {
+    background-color: #2e2d2d;
+    padding: 20px;
+    text-align: center;
+    background-image:url("header.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 100px;
+    color: #f1bb0b;
+    font-family: "Diplomata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d5c108;
+    text-align: center;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    font-size: larger;
+    color:beige;
+    font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+section h1 {
+    margin-bottom: 20px;
+    font-size: 64px;
+
+}
+
+.course{
+   color:white;
+}
+.contact{
+    color:white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f0e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
